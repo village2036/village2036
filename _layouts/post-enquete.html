@@ -10,5 +10,5 @@ layout: default
 		  {{ post.title }} </a></h4>
       <small>{{ post.date | date: "%-d %B %Y" }}</small>
       <p>{{ post.abstract | markdownify }}</p>
-      <img src="{{site.url}}/assets/{{post.img_preview}}" alt="{{ post.img_alt}}" >
+      <img src="{{site.url}}/public/{{post.enquete}}/{{post.img.preview}}" alt="{{ post.img.alt}}" >
     {% endfor %}

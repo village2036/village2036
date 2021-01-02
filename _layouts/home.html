@@ -1,6 +1,29 @@
 ---
 layout: default
 ---
+<h1> Village 2036 </h1>
 
+<p>
+Ok, on va se le dire, la rigueur scientifique n'est pas notre premier souci. Sans prétention! Ce que l'on aime c'est explorer le monde à partir des données. Ou d'explorer les données en ayant en tête le monde réel... à votre guise.
+</p>
+<p>
+Pour y arriver, nous vous proposons des *Enquêtes* naives: on prend des données réelles et on cherche à comprendre un sujet qui nous inspire. Le résultat attendu? Le même que si l'on donnait à des enfants un laboratoire Hi-Tech ou les ressources du FBI! Rien de moins!
+</p>
+
+<h2> Enquêtes en cours </h2>
+
+
+
+{% for enquete in site.enquetes %}
+
+
+  <h3><a href="{{ enquete.url }}">{{ enquete.title }} </a></h3>
+
+  <small> {{enquete.description}} </small>
+
+  <img src="{{ site.url}}/public/img/{{enquete.slug}}/{{enquete.img.preview}}" alt="{{ enquete.img.alt}}" >
+
+
+{% endfor %}
 
 {{ content }}

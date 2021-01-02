@@ -1,5 +1,6 @@
 ---
 layout: post
+enquete: crimes
 title:  "Suis-je en sécurité?"
 date:   2020-12-05 17:09:13 -0500
 abstract: |-
@@ -23,11 +24,4 @@ Voyons voir ce rapport annuel... Un pdf contenant quelques tableaux aggréggés 
 
 Je continue mes recherches. Rien dans les Données Ouvertes de la ville de Québec non plus... Attends un peu: Montréal!  Ils ont publié la liste des [actes criminels depuis 2015](https://www.donneesquebec.ca/recherche/dataset/vmtl-actes-criminels). Ce jeux de donnée a une catégorisation assez sommaire: introduction, vol dans / sur véhicule à moteur, vol de véhicule à moteur, méfait, vol qualifié et infraction entraînant la mort. Quand même, 128 916 évènements géolocalisés sur 5 ans. On va partir de ça.
 
-
-*À suivre...*
-
-## Un  chiffre s'il vous plaît
-
-
-
- <img src="{{site.url}}/assets/preview1.png">
+ <img src="{{site.url}}/public/img/crimes/preview1.png">

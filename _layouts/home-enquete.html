@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<h1>{{page.title}}</h1>
+<small>Enquête</small>
+
+<p>{{ page.description | markdownify }}</p>
+
+{{ content }}
+
+
+
+
+{% for post in site.posts %}
+
+{% if page.slug == post.enquete %}
+
+  <h4><a href="{{ post.url }}">{{ post.title }} </a></h4>
+  <small>{{ post.date | date: "%-d %B %Y" }}</small>
+  <p>{{ post.abstract | markdownify }}</p>
+  <img src="{{ site.url}}/public/img/{{page.slug}}/{{page.img.preview}}" alt="{{ post.img.alt}}" >
+
+{% endif %}
+
+{% endfor %}
+
+{{ content }}

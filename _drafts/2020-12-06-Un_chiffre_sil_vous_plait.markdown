@@ -1,5 +1,6 @@
 ---
 layout: post
+enquete: crimes
 title:  "Un chiffre s'il vous plaît!"
 date:   2020-12-06 17:09:13 -0500
 abstract: |-
@@ -8,7 +9,11 @@ img_preview: "preview_un_chiffre.png"
 img_atl: Des indicateurs de risque sur une carte
 ---
 
+
+
+
+
 *Enquête en cours...*
 
 
- <img src="{{site.url}}/assets/preview_un_chiffre.png">
+ <img src="{{site.url}}/public/img/crimes/preview_un_chiffre.png">
